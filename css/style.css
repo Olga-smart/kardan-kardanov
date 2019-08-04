@@ -11,6 +11,23 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 }
+section, footer {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.section-heading {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 3rem;
+}
+.bg-brown {
+	background-color: var(--brown);
+	color: #fff;
+}
+.bg-blue {
+	background-color: var(--blue);
+	color: #fff;
+}
 /* End General */
 
 /* Navbar */
@@ -66,3 +83,93 @@ header .offer .btn:hover {
 	background-color: var(--accent-dark);
 } 
 /* End Header */
+
+/* Who We */
+
+/* End Who We */
+
+/* Numbers */
+.numbers {
+	background-image: url(../img/about-us-bg.jpg);
+	background-repeat: no-repeat;
+	background-color: var(--brown);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+.numbers__number {
+	display: block;
+	font-weight: 800;
+	font-size: 3rem;
+	color: var(--blue);
+}
+/* End Numbers */
+
+/* Stages */
+.stages {
+	counter-reset: section; 
+}
+.stages__item {
+	padding: 2rem 1rem;
+	border-top: 3px solid var(--accent);
+	background-repeat: no-repeat;
+	background-size: 50px;	
+	position: relative;
+}
+.stages__item h3 {
+	color: var(--accent);
+}
+.stages__item:nth-child(odd) {
+	padding-left: 120px;
+	border-right: 3px solid var(--accent);
+	background-position: top 1.5rem left 55px;
+} 
+.stages__item:nth-child(even) {
+	padding-right: 120px;
+	text-align: right;
+	border-left: 3px solid var(--accent);
+	background-position: top 1.5rem right 55px;
+} 
+.stages__item:after {
+	position: absolute;
+	counter-increment: section; 
+	content: counter(section);
+	display: block;
+	color: #fff;	
+	width: 40px;
+	height: 60px;
+	top: 0;
+	text-align: center;
+	line-height: 40px;
+	font-size: 1.5rem;
+	background: 
+		linear-gradient(45deg, #fff 20px, transparent 20px),
+		linear-gradient(-45deg, #fff 20px, transparent 20px),
+		linear-gradient(to bottom, var(--accent), var(--accent-dark));
+	background-color: var(--blue);
+}
+.stages__item:nth-child(odd):after {
+	left: 0; 
+}
+.stages__item:nth-child(even):after {
+	right: 0;
+}
+.stages__item1 {
+	background-image: url(../img/stages-1.png);
+}
+.stages__item2 {
+	background-image: url(../img/stages-2.png);
+}
+.stages__item3 {
+	background-image: url(../img/stages-3.png);
+}
+.stages__item4 {
+	background-image: url(../img/stages-4.png);
+}
+.stages__item5 {
+	background-image: url(../img/stages-5.png);
+}
+.stages__item6 {
+	background-image: url(../img/stages-6.png);
+}
+/* End Stages */
