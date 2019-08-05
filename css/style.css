@@ -38,7 +38,6 @@ header .navbar .nav-item .nav-link {
 	color: #fff;
 }
 .navbar .navbar-brand {
-	font-family: 'Russo One', sans-serif;
 	font-family: 'Orbitron', sans-serif;
 	letter-spacing: 2px;
 	border-top: 1px solid rgba(255,255,255,0.5);
@@ -173,3 +172,32 @@ header .offer .btn:hover {
 	background-image: url(../img/stages-6.png);
 }
 /* End Stages */
+
+/* Footer */
+footer {
+	background-image: url(../img/footer-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+footer .navbar-brand {
+	font-family: 'Orbitron', sans-serif;
+	letter-spacing: 2px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+/*	background-color: rgba(0,0,0,0.2);*/
+	padding: 0 0.5rem;
+}
+footer a {
+	color: #fff;
+}
+footer a:hover {
+	text-decoration: none;
+}
+footer .wish {
+	font-family: 'Neucha', cursive;
+	font-size: 2rem;
+	text-align: center;
+}
+/* End Footer */
