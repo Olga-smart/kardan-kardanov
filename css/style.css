@@ -20,10 +20,6 @@ section, footer {
 	text-transform: uppercase;
 	margin-bottom: 3rem;
 }
-.bg-brown {
-	background-color: var(--brown);
-	color: #fff;
-}
 .bg-blue {
 	background-color: var(--blue);
 	color: #fff;
@@ -139,10 +135,6 @@ header .offer .btn:hover {
 }
 /* End Media Header */
 
-/* Who We */
-
-/* End Who We */
-
 /* Numbers */
 .numbers {
 	background-image: url(../img/about-us-bg.jpg);
@@ -159,6 +151,14 @@ header .offer .btn:hover {
 	color: var(--blue);
 }
 /* End Numbers */
+
+/* Media Numbers */
+@media (max-width: 575px) {
+	.numbers__item {
+		font-size: 0.8rem;
+	}
+}
+/* End Media Numbers */
 
 /* Stages */
 .stages {
