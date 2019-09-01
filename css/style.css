@@ -229,6 +229,23 @@ header .offer .btn:hover {
 }
 /* End Stages */
 
+/* Media Stages */
+@media (max-width: 575px) {
+	.stages__item {
+		background-image: none;
+	}
+	.stages__item h3 {
+		font-size: 1.4rem;
+	}
+	.stages__item:nth-child(odd) {
+		padding-left: 3rem;
+	}
+	.stages__item:nth-child(even) {
+		padding-right: 3rem;
+	}
+}
+/* End Media Stages */
+
 /* Footer */
 footer {
 	background-image: url(../img/footer-bg.jpg);
