@@ -14,6 +14,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 }
+a {
+	color: var(--accent);
+}
+a:hover {
+	color: var(--accent-dark);
+}
 section, footer {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
@@ -297,3 +303,42 @@ footer .wish {
 	}
 }
 /* End Media Footer */
+
+/* Posts Page */
+.posts__item {
+	margin-bottom: 5rem;
+}
+.posts__item__img-wrapper {
+	 
+}
+.posts__item__link {
+	position: relative;
+	padding-right: 30px;
+	transition: all 0.3s ease-out;
+}
+.posts__item__link:after {
+	content: "→";
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	font-size: 1rem;
+	line-height: 1rem;
+	font-weight: bold;
+}
+.posts__item__link:hover {
+	padding-right: 40px;
+}
+/* End Posts Page */
+
+/* Pagination */
+.pagination .page-link {
+	border: none;
+	color: var(--brown);
+	margin-left: 0.4rem;
+	margin-right: 0.4rem;
+}
+.pagination .page-item.active .page-link {
+	background-color: var(--brown);
+}
+/* End Pagination */
