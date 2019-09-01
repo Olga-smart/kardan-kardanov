@@ -264,9 +264,15 @@ footer .navbar-brand {
 }
 footer a {
 	color: #fff;
+	display: block;
+	padding: 0.5rem 1rem;
+}
+footer p {
+	margin: 0;
 }
 footer a:hover {
 	text-decoration: none;
+	color: var(--accent);
 }
 footer .wish {
 	font-family: 'Neucha', cursive;
@@ -274,3 +280,11 @@ footer .wish {
 	text-align: center;
 }
 /* End Footer */
+
+/* Media Footer */
+@media (max-width: 575px) {
+	footer {
+		text-align: center;
+	}
+}
+/* End Media Footer */
