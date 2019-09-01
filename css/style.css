@@ -5,6 +5,9 @@
 	--accent: #539fe0;
 	--accent-dark: #407caf;
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: 'Montserrat', sans-serif;
 }
