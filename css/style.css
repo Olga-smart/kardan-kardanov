@@ -47,7 +47,7 @@ header .navbar {
 	right: 0;
 	z-index: 100;
 }
-header .navbar .nav-item .nav-link {
+.navbar .nav-item .nav-link {
 	color: #fff;
 }
 header .navbar-brand {
@@ -101,7 +101,7 @@ header .navbar-brand {
 /* Header */
 header {
 	min-height: 100vh;
-	background-image: url(../img/main-bg-brown.jpg);
+	background-image: url(../img/main-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -144,7 +144,7 @@ header .offer .btn:hover {
 }
 @media (max-width: 767px) {
 	header {
-		background-image: url(../img/main-bg_car.jpg);
+		background-image: url(../img/main-bg_small.jpg);
 		background-position: top center;
 	}
 }
@@ -342,3 +342,39 @@ footer .wish {
 	background-color: var(--brown);
 }
 /* End Pagination */
+
+.aside-wrapper-for-sticky {
+	position: sticky;
+	top: 30px;
+}
+
+/* Banner 1 */
+.banner-1 {
+	background-color: var(--brown);
+	color: #fff;
+	padding: 5rem 0.5rem;
+	background-image: url(../img/main-bg_small.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: sticky;
+	top: 30px;
+}
+.banner-1 small {
+	display: block;
+	color: rgba(255,255,255,0.7);
+}
+.banner-1 .btn {
+	color: #fff;
+	border-radius: 30px;
+	margin-top: 2rem;
+	background-color: var(--accent);
+}
+.banner-1 .btn:hover {
+	background-color: var(--accent-dark);
+}
+/* End Banner 1 */
+
+.banner-2 {
+	background-color: red;
+}
