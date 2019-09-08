@@ -21,9 +21,9 @@
 	<body>
 		
 		<div class="modal fade order-modal" id="orderModal" tabindex="-1" role="dialog">
-			<div class="modal-dialog" role="document">
+			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">				
-					<div class="modal-body">
+					<div class="modal-body text-center">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 						</button>
@@ -36,7 +36,7 @@
 								<label for="phone">Ваш телефон</label>
 								<input type="tel" id="phone" class="form-control" required>
 							</div>
-							<button type="submit" class="btn btn-primary">Отправить</button>
+							<button type="submit" class="btn">Отправить</button>
 						</form>
 					</div>					
 				</div>
@@ -93,7 +93,7 @@
 							<p>быстро<small>от 3 часов до 1 дня</small></p>
 							<p>качественно<small>до заводского состояния</small></p>
 							<p>с гарантией<small>до 6 месяцев</small></p>
-							<button type="button" class="btn">Решить мою проблему</button>
+							<button type="button" class="btn" data-toggle="modal" data-target="#orderModal">Решить мою проблему</button>
 						</div>		
 					</aside>
 				</div>

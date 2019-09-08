@@ -29,11 +29,20 @@ section, footer {
 	text-transform: uppercase;
 	margin-bottom: 3rem;
 }
-.bg-blue {
-	background-color: var(--blue);
-	color: #fff;
-}
 /* End General */
+
+/* Modal */
+.modal .btn {
+	color: #fff;
+	border-radius: 30px;
+	margin-top: 2rem;
+	background-color: var(--accent);
+	padding: 0.5rem 2rem;
+}
+.modal .btn:hover {
+	background-color: var(--accent-dark);
+}
+/* End Modal */
 
 /* Navbar */
 .navbar {
@@ -343,11 +352,6 @@ footer .wish {
 }
 /* End Pagination */
 
-.aside-wrapper-for-sticky {
-	position: sticky;
-	top: 30px;
-}
-
 /* Banner 1 */
 .banner-1 {
 	background-color: var(--brown);
@@ -374,7 +378,3 @@ footer .wish {
 	background-color: var(--accent-dark);
 }
 /* End Banner 1 */
-
-.banner-2 {
-	background-color: red;
-}
